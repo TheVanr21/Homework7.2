@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  java-docker-app:
+    build: .
+    image: java-docker-app:1.0
+    ports:
+      - '9999:9999'
